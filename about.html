@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenithra | Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg__dark py-2 fixed-top">
+            <div class="container px-lg-0 px-xxl-2">
+                <a class="navbar-brand d-flex align-items-center   gap-3 " href="index.html">
+                    <img src="assets/img/zenithra_logo.png" class="logo" alt="">
+                    <span class="mb-0 fw-bold bg__text fs-3">
+
+                        Zenithra
+                    </span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-lg-start text-center" aria-current="page"
+                                href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-lg-start text-center" aria-current="page"
+                                href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-lg-start text-center" aria-current="page"
+                                href="treasury.html">Treasury</a>
+                        </li>
+                       
+
+                    </ul>
+                    <div class="d-flex align-items-center justify-content-lg-end justify-content-center gap-3">
+                        <a href="https://twitter.com/X_fortify" class="text-decoration-none px-2">
+                            <!-- <i class=" text-white fa-brands px-2 fa-x-twitter"></i> -->
+                            <i class="text-white fa-brands fa-x-twitter fs-5 "></i>
+                        </a>
+                        <a href="https://t.me/FortifyX" class="text-decoration-none px-2">
+                            <i class="text-white fa-brands fa-telegram fs-5 "></i>
+                        </a>
+                        <!-- <i class="text-white fa-brands fa-telegram fs-4 d-lg-block d-none px-3"></i> -->
+                        <a href="#" class="text-decoration-none gitbook-style" onmouseenter="gitbookEnter()" onmouseleave="gitbookLeave()">
+                            <img src="assets/img/gitbook.svg" width="25px" height="25px" alt="" id="gitbook-img-1"
+                                class="hover__gray ">
+                                <img src="assets/img/gitbook-hover.svg" width="25px" height="25px" alt=""  id="gitbook-img-2"
+                                class="hover__gray ">
+                               
+                        </a>
+                        <button
+                            class="btn btn-light mybtn__hover rounded-pill border__gray fw-bold px-4 text-uppercase fs___small">
+                            Dashboard
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg__dark py-3 invisible" style="pointer-events: none;">
+            <div class="container-fluid mx-lg-5 px-lg-5">
+                <a class="navbar-brand" href="#">Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">Treasury</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  " aria-current="page" href="#">Whitsssepaper</a>
+                        </li>
+
+                    </ul>
+                    <div class="d-flex align-items-center gap-3">
+                        <!-- <i class="text-white fa-brands fa-telegram fs-4"></i> -->
+                        <img src="assets/img/Telegram_logo.svg.webp" width="25px" height="25px" alt=""
+                            class="hover__gray">
+
+
+                        <button class="btn btn-light rounded-pill border__gray fw-bold px-4 text-uppercase fs___small">
+                            Launch App
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="about__section container my-5 py-lg-5  ">
+        <h1 class="text-center text-white fw-bolder fs__60">About </h1>
+        <p class="text-center border__top__bottom text-white text-uppercase py-2 fs-5">
+            all about Zenithra
+        </p>
+        <h1 class="text-white fs__46 mt-5 ">
+            What is Zenithra?
+        </h1>
+        <p class="text-white fs__18 mt-3 fw-light">
+            Zenithra is the innovative, decentralized insurance solution that empowers individuals to take back control of their assets by leveraging the power of blockchain technology. Our multi-chain platform, built on the ERC20 Smart Chain, enables users to easily sign up and acquire insurance coverage. Additionally, we provide a unique form of governance that encourages participation and transparency.
+        </p>
+        <h1 class="text-white fs__46 mt-5 ">
+            Why did we create Zenithra?
+        </h1>
+        <p class="text-white fs__18 mt-3 fw-light">
+            Insurance has its roots in the past, where communities would pool their resources to protect one another from shared risks. However, this trust-based system is not scalable, which led to the creation of traditional insurance companies. With the rise of scams in the DeFi world, we recognized an opportunity to combine our knowledge of the insurance industry with our passion for decentralized technology. We set out to create a secure space on a scalable platform, where users could trust the technology and not just the people behind it.
+
+            At Zenithra, our goal is to provide our members with simple, transparent, accessible, and affordable financial protection against their risks. 
+        </p>
+        <p class="text-white fs__18 mt-3 fw-light">
+            We believe that everyone deserves the same level of protection, no matter the size of their investment.
+        </p>
+    </section>
+    <section class="container">
+        <div class="bg__dark2 py-3 px-2 py-lg-4 px-lg-4  br__50">
+            <div class="row gap-lg-0 gap-5   mx-0">
+                <div class="col-lg-4">
+                    <div class="card__custom1 p-4 p-xxl-3 h-100">
+                        <div class="d-flex justify-content-start">
+                            <img src="assets/img/throne.png" class="img-fluid" alt="">
+
+
+
+                        </div>
+                        <p class="fs-2 text-white  fw-bold my-3"> Decentralized</p>
+
+                        <p class="text-muted text-white fs-5">
+                            Zenithra is a truly decentralized ecosystem, governed by its users. With FFX tokens, users can participate in voting and decision-making, ensuring that Zenithra remains secure, competitive, and transparent.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="card__custom1 p-4 p-xxl-3 h-100">
+                        <div class="d-flex justify-content-start">
+                            <img src="assets/img/shield.png" class="img-fluid" alt="">
+
+
+
+                        </div>
+                        <p class="fs-2 text-white  fw-bold my-3"> Transparent
+                        </p>
+
+                        <p class="text-muted text-white fs-5">
+                            Zenithra's code is based on blockchain technology, which ensures transparency. Claims assessment and investment of funds are both done on-chain, making them audit-able by the public.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card__custom1 p-4 p-xxl-3 h-100">
+                        <div class="d-flex justify-content-start">
+                            <img src="assets/img/flag.png" class="img-fluid" alt="">
+
+
+
+                        </div>
+                        <p class="fs-2 text-white  fw-bold my-3"> Fair</p>
+
+                        <p class="text-muted text-white fs-5">
+                            Every claim goes through a two-phase voting process that is enforced, ensuring fairness and a thorough process for each claim.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row gap-lg-0 gap-5  mt-4 pt-lg-3  mx-0">
+                <div class="col-lg-4">
+                    <div class="card__custom1 p-4 p-xxl-3 h-100">
+                        <div class="d-flex justify-content-start">
+                            <img src="assets/img/flagcurly.png" class="img-fluid" alt="">
+
+
+
+                        </div>
+                        <p class="fs-2 text-white  fw-bold my-3"> Disruptive
+                        </p>
+
+                        <p class="text-muted text-white fs-5">
+                            Zenithra is disrupting the traditional insurance industry, which is often criticized for its lack of transparency and misaligned incentives. With its decentralized structure, Zenithra aims to provide a fair and transparent alternative.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="card__custom1 p-4 p-xxl-3 h-100">
+                        <div class="d-flex justify-content-start">
+                            <img src="assets/img/efficien.png" class="img-fluid" alt="">
+
+
+
+                        </div>
+                        <p class="fs-2 text-white  fw-bold my-3"> Efficient
+                        </p>
+
+                        <p class="text-muted text-white fs-5">
+                            Unlike traditional insurance companies, Zenithra operates without branch offices, claims specialists, or agents. This makes it a more efficient solution for users.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="card__custom1 p-4 p-xxl-3 h-100">
+                        <div class="d-flex justify-content-start">
+                            <img src="assets/img/evolving.png" class="img-fluid" alt="">
+
+
+
+                        </div>
+                        <p class="fs-2 text-white  fw-bold my-3"> Evolving</p>
+
+                        <p class="text-muted text-white fs-5">
+                            Zenithra's roadmap includes exciting new features such as cross-chain capabilities and coverage for NFTs. As an evolving ecosystem, Zenithra will continue to innovate and improve its services to meet the needs of its users.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="container mt-5 pt-5 pb-3">
+
+
+        <div class="d-flex justify-content-between flex-column">
+            <div>
+                <div class="d-flex justify-content-center gap-3 align-items-center  mb-3">
+                    <img src="assets/img/zenithra_logo.png" class="logo" alt="">
+                    <span class="mb-0 fs-2 fw-bold bg__text">
+
+                        Zenithra
+                    </span>
+                </div>
+                <p class="text-white-50 fs-5 text-center fs__r__14px">We cant predict the future, but
+                    we can protect it</p>
+
+            </div>
+            <div class="d-flex gap-3 align-items-center justify-content-center mb-3">
+                <!-- <i class="text-white fa-brands fa-telegram fs-5"></i> -->
+                <a href="https://twitter.com/X_fortify" class="text-decoration-none px-2">
+                    <!-- <i class=" text-white fa-brands px-2 fa-x-twitter"></i> -->
+                    <i class="text-white fa-brands fa-x-twitter fs-5 "></i>
+                </a>
+                <a href="https://t.me/FortifyX" class="text-decoration-none px-2">
+                    <i class="text-white fa-brands fa-telegram fs-5 "></i>
+                </a>
+                <!-- <i class="text-white fa-brands fa-telegram fs-4 d-lg-block d-none px-3"></i> -->
+                <a href="#" class="text-decoration-none gitbook-style-bottom" onmouseenter="gitbookEnter2()" onmouseleave="gitbookLeave2()">
+                    <img src="assets/img/gitbook.svg" width="25px" height="25px" alt="" id="gitbook-img-3"
+                        class="hover__gray mx-2">
+                        <img src="assets/img/gitbook-hover.svg" width="25px" height="25px" alt=""  id="gitbook-img-4"
+                                class="hover__gray ">
+                      
+                </a>
+            </div>
+
+            
+        </div>
+
+        
+
+        <!-- <div class="col-lg-7">
+                <div class="row mx-0 mt-5 mt-lg-0">
+                    <div class="col-lg-3 col-6">
+                        <small class="text-white fw-bold">Useful Links</small>
+                        <p class="mt-3 mb-2">
+                            <small>
+                                <a href="#" class="text-decoration-none text-muted">
+                                    Contact
+
+                                </a>
+                            </small>
+                        </p>
+                        <p class="mt-2 mb-2">
+                            <small>
+                                <a href="#" class="text-decoration-none text-muted">
+                                    Blog
+
+                                </a>
+                            </small>
+                        </p>
+                        <p class="mt-2 mb-2">
+                            <small>
+                                <a href="#" class="text-decoration-none text-muted">
+                                    FAQ
+
+                                </a>
+                            </small>
+                        </p>
+                        <p class="mt-2 mb-2">
+                            <small>
+                                <a href="#" class="text-decoration-none text-muted">
+                                    Community
+
+                                </a>
+                            </small>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <small class="text-white fw-bold">About</small>
+                        <p class="mt-3 mb-2">
+                            <small>
+                                <a href="#" class="text-decoration-none text-muted">
+                                    Privacy Policy
+                                </a>
+                            </small>
+                        </p>
+                        <p class="mt-2 mb-2">
+                            <small>
+                                <a href="#" class="text-decoration-none text-muted">
+                                    Whitepaper
+
+                                </a>
+                            </small>
+                        </p>
+                        <p class="mt-2 mb-2">
+                            <small>
+                                <a href="#" class="text-decoration-none text-muted">
+                                    Terms of Use
+
+                                </a>
+                            </small>
+                        </p>
+                        <p class="mt-2 mb-2">
+                            <small>
+                                <a href="#" class="text-decoration-none text-muted">
+                                    About Team
+
+                                </a>
+                            </small>
+                        </p>
+
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <small class="text-white fw-bold">Quick Links</small>
+                        <p class="mt-3 mb-2">
+                            <small>
+                                <a href="#" class="text-decoration-none text-muted">
+                                    Ecosystem
+
+                                </a>
+                            </small>
+                        </p>
+                        <p class="mt-2 mb-2">
+                            <small>
+                                <a href="#" class="text-decoration-none text-muted">
+                                    Governance
+
+                                </a>
+                            </small>
+                        </p>
+                        <p class="mt-2 mb-2">
+                            <small>
+                                <a href="#" class="text-decoration-none text-muted">
+                                    Developers
+
+                                </a>
+                            </small>
+                        </p>
+                        <p class="mt-2 mb-2">
+                            <small>
+                                <a href="#" class="text-decoration-none text-muted">
+                                    Trademark Policy
+
+                                </a>
+                            </small>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <small class="text-white fw-bold">Admin</small>
+                        <p class="mt-3 mb-2">
+                            <small>
+                                <a href="#" class="text-decoration-none text-muted">
+                                    Style Guide
+
+                                </a>
+                            </small>
+                        </p>
+                        <p class="mt-2 mb-2">
+                            <small>
+                                <a href="#" class="text-decoration-none text-muted">
+                                    Licenses
+
+                                </a>
+                            </small>
+                        </p>
+                        <p class="mt-2 mb-2">
+                            <small>
+                                <a href="#" class="text-decoration-none text-muted">
+                                    Instructions
+
+                                </a>
+                            </small>
+                        </p>
+                        <p class="mt-2 mb-2">
+                            <small>
+                                <a href="#" class="text-decoration-none text-muted">
+                                    Password
+
+                                </a>
+                            </small>
+                        </p>
+                        <p class="mt-2 mb-2">
+                            <small>
+                                <a href="#" class="text-decoration-none text-muted">
+                                    404
+
+                                </a>
+                            </small>
+                        </p>
+                    </div>
+
+                </div>
+                <div class="text-center text-white">
+                    <i class="fa-brands fa-telegram fs-4"></i>
+                    <p>
+                        <small class="text-white d-lg-none d-block" style="margin-top: 5;">&copy; lorem ipsum 2023</small>
+                    </p>
+                </div>
+            </div> -->
+     
+    </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script src="assets/js/script.js"></script>
+
+</html>

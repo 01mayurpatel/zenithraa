@@ -1,0 +1,485 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header .nav-link {
+  margin: 0px 6px;
+  font-size: 15px !important;
+  font-weight: 600;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #000000;
+}
+
+.algn {
+  align-items: center !important;
+}
+
+.bg__dark {
+  background-color: #000000 !important;
+}
+
+.border__gray {
+  border: 2px solid #666;
+}
+.blocks_border{
+  border-bottom: 2px solid #84601944;
+  border-top: 2px solid #84601944;
+}
+.blocks_border_bottom{
+  border-bottom: 2px solid #84601944;
+
+}
+.banner__home {
+  background-image: radial-gradient(69.11% 115.87% at 20.24% 19.31%,
+      rgba(183, 148, 79, 0.2) 0,
+      rgba(126, 104, 63, 0) 100%);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.btn__custom {
+  background-image: linear-gradient(90.03deg,
+      #886319 -11.64%,
+      rgba(12, 10, 7, 0) 119.96%);
+  width: 280px;
+}
+
+.fs___small {
+  font-size: 14px !important;
+  height: 45px;
+}
+
+.banner__heading {
+  font-size: 96px;
+}
+.banner__heading_80{
+  font-size: 65px;
+}
+
+.fs__20 {
+  font-size: 20px !important;
+}
+
+.specialfeatures__sec {
+  overflow: hidden;
+}
+
+.specialfeatures__sec>div {
+  background-color: #0a0707 !important;
+  border-radius: 60px;
+}
+
+.govern__sec>div {
+  background-color: #0a0707 !important;
+  border-radius: 60px;
+}
+
+.centerBoxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__bg {
+  background-color: #151616;
+}
+.set_border{
+  border: 2px solid rgb(0, 0, 0);
+}
+.radius__16 {
+  border-radius: 16px !important;
+}
+
+.roadmap__section {
+  background-image: linear-gradient(269.82deg,
+      #020202d4 0.14%,
+      transparent 99.84%),
+    linear-gradient(135deg, #fff, #a5a5a5);
+  border-radius: 50px;
+  margin-top: 120px;
+
+  border: 1px solid #fff;
+}
+
+.position__lock {
+  position: absolute;
+  width: 300px;
+  top: -10%;
+  right: -5%;
+}
+
+.accordion {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.accordion-button {
+  background-color: transparent !important;
+  border-bottom: 1px solid #fff;
+  color: #fff !important;
+  font-size: 26px !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+  border-bottom: 1px solid #fff !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../img/minus-small-svgrepo-com.svg");
+  transform: rotate(-180deg);
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: url("../img/plus-small-svgrepo-com.svg");
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.accordion-body {
+  background-color: transparent !important;
+}
+
+.accordion-item {
+  background-color: transparent !important;
+}
+
+.colw {
+  width: 38%;
+}
+.gitbook-style{
+  position: relative;
+  width: 50px;
+  height: 30px;
+  padding-top: 0%;
+  margin-top: 0%;
+}
+#gitbook-img-2{
+  visibility: hidden;
+  position: relative;
+  width: 50px;
+  height: 30px;
+  padding-top: 0%;
+  margin-top: 0%;
+  top: 0%;
+ 
+}
+.gitbook-style:hover{
+  transform: scale(1.1);
+}
+.gitbook-style-bottom{
+ position: relative;
+ height: 30px;
+}
+.gitbook-style-bottom:hover{
+  transform: scale(1.3);
+}
+#gitbook-img-1{
+  
+  position: absolute;
+  left: 20%;
+ 
+}
+#gitbook-img-3{
+  visibility: hidden;
+  position: relative;
+  visibility: visible;
+  
+  
+  padding-top: 0%;
+  margin-top: 0%;
+  top: 0%;
+ 
+}
+#gitbook-img-4{
+  
+  position: absolute;
+  left: 20%;
+}
+
+i:hover {
+  color: #b7944f !important;
+  
+  transform: scale(1.3);
+
+}
+
+.hover__gray {
+  filter: grayscale(1);
+}
+
+.hover__gray:hover {
+  filter: grayscale(0);
+}
+
+.bg__text {
+  background-image: linear-gradient(90deg, #b7944f -65.05%, #010101 230.27%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.bg__dark2 {
+  background-color: #0A0707 !important;
+}
+
+.fs__60 {
+  font-size: 60px;
+}
+
+.fs__46 {
+  font-size: 46px;
+}
+
+.fs__18 {
+  font-size: 18px;
+}
+
+.border__top__bottom {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #3C3C3C;
+}
+
+.card__custom1 {
+  border: 2px solid #B7944F;
+  border-radius: 16px;
+  
+}
+
+.mybtn__hover:hover {
+  background-image: linear-gradient(90deg, #b7944f -65.05%, #010101 230.27%);
+  color: #fff !important;
+  transition: 0.5s ease-in;
+}
+
+.br__50 {
+  border-radius: 50px;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+.nft__cards {
+  border: 2px solid #fff;
+  border-radius: 16px;
+}
+
+.border__bottom__1 {
+  border-bottom: 1px solid #fff;
+}
+
+
+
+
+/* ============ About Page ======= */
+@media (max-width: 991px) {
+  .card__custom1 {
+
+    height: max-content;
+  }
+.blocks_border_resp{
+  border-top: none;
+}
+  .fs__responsive__1 {
+    font-size: 14px !important;
+
+  }
+
+  .fs__r__14 {
+    font-size: 13px !important;
+  }
+
+  .fs__r__14px {
+    font-size: 14px !important;
+  }
+
+  .img__icon__responsive {
+    width: 20px !important;
+  }
+
+  .banner__heading {
+    font-size: 48px;
+    text-align: center;
+  }
+  .banner__heading_80 {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .fs__60 {
+    font-size: 40px;
+  }
+
+  .fs__46 {
+    font-size: 28px;
+  }
+
+  .fs__18 {
+    font-size: 18px;
+  }
+
+  .roadmap__section {
+    width: 95%;
+    margin: auto;
+  }
+
+  .specialfeatures__sec>div {
+    width: 95%;
+    margin: auto;
+  }
+
+  .position__lock {
+    position: absolute;
+    width: 120px;
+    top: -10%;
+    right: 0%;
+  }
+
+  .fs__20 {
+    font-size: 14px !important;
+  }
+
+
+  .banner__home {
+    background-image: radial-gradient(69.11% 115.87% at 20.24% 19.31%,
+        rgba(183, 148, 79, 0.2) 0,
+        rgba(126, 104, 63, 0) 100%);
+    /* height: max-content; */
+    padding-bottom: 40px;
+    overflow: hidden;
+  }
+
+  .img__banner {
+    width: 200px;
+
+  }
+}
+
+@media (max-width:400px) {
+  .scalee__1>* {
+    transform: scale(1.1);
+  }
+
+  .fs__r__14 {
+    font-size: 10px !important;
+  }
+
+  .fs__r__14px {
+    font-size: 14px !important;
+  }
+
+  .img__icon__responsive {
+    width: 15px !important;
+  }
+}
+
+@media (min-width: 1600px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1500px;
+  }
+}
+
+@media (min-width:1200px) and (max-width:1300px) {
+  .position__lock {
+    right: -1%;
+  }
+}
+
+@media (min-width:993px) and (max-width:1200px) {
+  .colw {
+    width: 50%;
+  }
+  
+  .banner__heading {
+    font-size: 84px;
+  }
+  .banner__heading_80{
+    font-size: 70px;
+
+  }
+  .lefw {
+    width: 52%;
+  }
+
+  .riw {
+    width: 48%;
+  }
+
+  .position__lock {
+    right: 1%;
+  }
+
+  .card__custom1 {
+    height: 35em;
+  }
+}
+
+@media (min-width:568px) and (max-width:767px) {
+  .centerBoxes {
+    gap: 10px !important;
+  }
+
+  .colw {
+    width: 48%;
+  }
+
+  .position__lock {
+    top: -14%;
+    right: -2%;
+  }
+
+  .text-white {
+    text-align: center;
+  }
+
+  .roadmap__section {
+    background-image: linear-gradient(269.82deg, #020202 0.14%, transparent 35.84%), linear-gradient(135deg, #fff, #a5a5a5);
+  }
+}
+
+@media screen and (max-width:567px) {
+  .centerBoxes {
+    flex-direction: column;
+    gap: 2rem !important;
+  }
+
+  .text-white {
+    text-align: center;
+  }
+
+  .governp {
+    padding: 1.5rem !important;
+  }
+
+  .colw {
+    width: 100%;
+  }
+
+  .position__lock {
+    top: -14%;
+    right: -2%;
+  }
+
+  .roadmap__section {
+    background-image: linear-gradient(269.82deg, #020202 0.14%, transparent 35.84%), linear-gradient(135deg, #fff, #a5a5a5);
+  }
+}
